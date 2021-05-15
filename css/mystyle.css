@@ -1,0 +1,169 @@
+
+
+/*---------------------------- ITSI BODY ---------------------------- */
+
+/* 
+font-family: 'Karla Tamil Upright', sans-serif;
+font-family: 'Quicksand', sans-serif; 
+font-family: 'Space Mono', monospace;
+font-family: 'VT323', monospace;
+background : #353535; / #0A0E22
+h1 shadow: #C650D3;
+h2 shadow: #3FD2E7;
+button text: #00DFDD;
+  */
+
+body {
+  color: white;
+  font-family: 'DM Mono', monospace;
+  font-weight: normal; 
+  font-size: 20px;
+}
+
+#body{
+	background-image: url('../images/itsi_background.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+	top: 200px;
+}
+
+#date{
+	position: absolute;
+	margin-right: 0;
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+h1{
+	/*font-family: 'DM Mono', monospace;*/
+	text-align: center;
+	text-shadow: 1 1 3px #C650D3;
+}
+
+.itsiVideo{
+	margin-left: 75%;
+	margin-top: 7%;
+	/*border: 3px solid white;*/
+}
+
+.background-video{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+#video{
+	width: 100%;
+	height:100%;
+	object-fit: cover;
+}
+
+
+.planet{
+top: 100px;
+}
+
+#Earth{
+
+}
+
+#Mars{
+
+}
+
+
+/*---------------------------- ITSI BODY ---------------------------- */
+
+.button1{
+	background-color: #0A0E22;
+	width: 100px;
+	height: 30px;
+	margin-left: 200px;
+	text-align: center;
+	border: 2px solid #FF00E8;
+	z-index: -1;
+}
+
+.buttonText{
+	font-family: 'VT323', monospace;
+	color: #00BC69;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+#boxMessage{
+	width: 450px;
+	height: 200px;
+	background-color: #0A0E22;
+	font-family: 'VT323', monospace;
+	font-size: 20px;
+	color: #00BC69;
+	padding:20px;
+	border: 2px solid #FF00E8;
+	margin-left: 10px;
+	margin-top: -255px;
+}
+
+
+
+/*---------------------------- MARTIAN LANGUAGE ---------------------------- */
+
+h2{
+	/*font-family: 'DM Mono', monospace;*/
+	text-align: center;
+	text-shadow: 1 1 3px #3FD2E7;
+	font-size: 16px;
+}
+
+/*
+a {
+  color: #00DFDD;
+  font-size: 18px;
+  transition: 0.6;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #99939A;
+  color: #312A32;
+}
+
+*/
+
+#martianLangTitle{
+	margin-top: 200px;
+	margin-left: 40%;
+}
+
+.camera4{
+	position: absolute;
+	margin-left: 0;
+	margin-top: -220px;
+}
+
+.camera5{
+	position: absolute;
+	margin-left: 370px;
+	margin-top: -220px;
+}
+
+.camera6{
+	position: absolute;
+	margin-left: 740px;
+	margin-top: -220px;
+}
+
+.camera7{
+	position: absolute;
+	margin-left: 1100px;
+	margin-top: -220px;
+}
+
+
